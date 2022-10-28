@@ -3,20 +3,20 @@
         [
             'misura' => '205/55/16',
             'marca' => 'Hankook',
-            'modello' => 'W452',
-            'prezzo' => '80€',
+            'modello' => 'Kinergy 4S',
+            'prezzo' => '95€',
         ],
         [
             'misura' => '205/55/16',
             'marca' => 'Continental',
-            'modello' => 'TS860',
-            'prezzo' => '90€',
+            'modello' => 'AllSeason Contact',
+            'prezzo' => '98€',
         ],
         [
             'misura' => '205/55/16',
             'marca' => 'Pirelli',
-            'modello' => 'SottoZero 3',
-            'prezzo' => '95€',
+            'modello' => 'Cinturato AllSeason',
+            'prezzo' => '105€',
         ],
     ];
 
@@ -24,7 +24,7 @@
 
 @include('shared.nav')
 
-<h1>Pneumatici Invernali</h1>
+<h1>Pneumatici 4 Stagioni</h1>
 
 <div>
     @foreach ($array as $data)

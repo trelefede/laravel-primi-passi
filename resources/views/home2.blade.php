@@ -3,20 +3,20 @@
         [
             'misura' => '205/55/16',
             'marca' => 'Hankook',
-            'modello' => 'W452',
-            'prezzo' => '80€',
-        ],
-        [
-            'misura' => '205/55/16',
-            'marca' => 'Continental',
-            'modello' => 'TS860',
+            'modello' => 'Ventus V12 evo',
             'prezzo' => '90€',
         ],
         [
             'misura' => '205/55/16',
-            'marca' => 'Pirelli',
-            'modello' => 'SottoZero 3',
+            'marca' => 'Continental',
+            'modello' => 'Premium Contact 6',
             'prezzo' => '95€',
+        ],
+        [
+            'misura' => '205/55/16',
+            'marca' => 'Pirelli',
+            'modello' => 'P Zero Nero',
+            'prezzo' => '98€',
         ],
     ];
 
@@ -24,7 +24,7 @@
 
 @include('shared.nav')
 
-<h1>Pneumatici Invernali</h1>
+<h1>Pneumatici Estivi</h1>
 
 <div>
     @foreach ($array as $data)
